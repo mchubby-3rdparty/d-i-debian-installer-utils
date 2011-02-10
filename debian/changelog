@@ -1,3 +1,10 @@
+debian-installer-utils (1.83) UNRELEASED; urgency=low
+
+  * Add an --allow-remove option to apt-install, which inhibits passing
+    --no-remove to apt-get.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 10 Feb 2011 15:25:55 +0000
+
 debian-installer-utils (1.82) unstable; urgency=low
 
   [ Updated translations ]
