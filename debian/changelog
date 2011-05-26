@@ -1,4 +1,4 @@
-debian-installer-utils (1.84) UNRELEASED; urgency=low
+debian-installer-utils (1.84) unstable; urgency=low
 
   [ Samuel Thibault ]
   * Add CD-ROM detection on hurd-i386.
@@ -7,7 +7,7 @@ debian-installer-utils (1.84) UNRELEASED; urgency=low
   * Bind-mount /run onto /target/run during in-target on Linux, if the
     latter exists.
 
- -- Samuel Thibault <sthibault@debian.org>  Sun, 15 May 2011 23:04:37 +0200
+ -- Colin Watson <cjwatson@debian.org>  Thu, 26 May 2011 14:20:35 +0100
 
 debian-installer-utils (1.83) unstable; urgency=low
 
