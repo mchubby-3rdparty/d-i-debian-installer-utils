@@ -3,6 +3,11 @@ debian-installer-utils (1.85) UNRELEASED; urgency=low
   [ Samuel Thibault ]
   * Add SCSI HDD and CD-ROM detection on hurd-i386.
 
+  [ Colin Watson ]
+  * chroot_setup.sh: Export SUDO_FORCE_REMOVE=yes, since removing sudo is
+    never harmful during installation and is occasionally useful, e.g. when
+    installing sudo-ldap (closes: #586887).
+
  -- Samuel Thibault <sthibault@debian.org>  Wed, 20 Jul 2011 00:01:29 +0200
 
 debian-installer-utils (1.84) unstable; urgency=low
