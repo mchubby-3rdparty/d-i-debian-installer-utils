@@ -1,4 +1,4 @@
-debian-installer-utils (1.85) UNRELEASED; urgency=low
+debian-installer-utils (1.85) unstable; urgency=low
 
   [ Samuel Thibault ]
   * Add SCSI HDD and CD-ROM detection on hurd-i386.
@@ -8,7 +8,23 @@ debian-installer-utils (1.85) UNRELEASED; urgency=low
     never harmful during installation and is occasionally useful, e.g. when
     installing sudo-ldap (closes: #586887).
 
- -- Samuel Thibault <sthibault@debian.org>  Wed, 20 Jul 2011 00:01:29 +0200
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * German (de.po) by Holger Wansing
+  * Basque (eu.po)
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Italian (it.po) by Milo Casagrande
+  * Japanese (ja.po) by Kenshi Muto
+  * Macedonian (mk.po) by Arangel Angov
+  * Dutch (nl.po) by Jeroen Schot
+  * Polish (pl.po) by Marcin Owsiany
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po) by Danishka Navin
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 27 Sep 2011 18:12:05 +0100
 
 debian-installer-utils (1.84) unstable; urgency=low
 
