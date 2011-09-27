@@ -1,3 +1,11 @@
+debian-installer-utils (1.82+squeeze1) UNRELEASED; urgency=low
+
+  * chroot_setup.sh: Export SUDO_FORCE_REMOVE=yes, since removing sudo is
+    never harmful during installation and is occasionally useful, e.g. when
+    installing sudo-ldap (closes: #586887).
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 28 Sep 2011 13:02:48 +0000
+
 debian-installer-utils (1.82) unstable; urgency=low
 
   [ Updated translations ]
