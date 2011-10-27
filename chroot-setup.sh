@@ -101,7 +101,7 @@ EOF
 					/target/dev/pts
 			fi
 
-			if [ -d /target/run ] && [ ! -d /target/run/lock ]; then
+			if ! mountpoints | grep -q '^/target/run$'; then
 				mount --bind /run /target/run
 			fi
 		;;
