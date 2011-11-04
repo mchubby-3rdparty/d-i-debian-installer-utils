@@ -1,8 +1,8 @@
-debian-installer-utils (1.87) UNRELEASED; urgency=low
+debian-installer-utils (1.87) unstable; urgency=low
 
   * Install "x/xterm" on GNU/kFreeBSD, make "l/linux" Linux-only.
 
- -- Robert Millan <rmh@debian.org>  Wed, 02 Nov 2011 12:30:08 +0100
+ -- Robert Millan <rmh@debian.org>  Fri, 04 Nov 2011 23:32:48 +0100
 
 debian-installer-utils (1.86) unstable; urgency=high
 
