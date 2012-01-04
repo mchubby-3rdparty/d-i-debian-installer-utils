@@ -1,3 +1,10 @@
+debian-installer-utils (1.88) UNRELEASED; urgency=low
+
+  * chroot_setup.sh: Divert start-stop-daemon and initctl rather than simply
+    moving them aside (closes: #654580).
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 04 Jan 2012 13:33:40 +0000
+
 debian-installer-utils (1.87) unstable; urgency=low
 
   * Install "x/xterm" on GNU/kFreeBSD, make "l/linux" Linux-only.
