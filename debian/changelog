@@ -1,9 +1,14 @@
-debian-installer-utils (1.88) UNRELEASED; urgency=low
+debian-installer-utils (1.88) unstable; urgency=low
 
+  [ Colin Watson ]
   * chroot_setup.sh: Divert start-stop-daemon and initctl rather than simply
     moving them aside (closes: #654580).
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 04 Jan 2012 13:33:40 +0000
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+  * Kannada (kn.po) by Prabodh C P
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 04 Jan 2012 13:37:09 +0000
 
 debian-installer-utils (1.87) unstable; urgency=low
 
