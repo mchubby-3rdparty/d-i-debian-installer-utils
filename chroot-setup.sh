@@ -26,12 +26,12 @@ update_mtab() {
 }
 
 divert () {
-	chroot /target dpkg-divert --add --divert "$1.REAL" --rename "$1"
+	chroot /target dpkg-divert --quiet --add --divert "$1.REAL" --rename "$1"
 }
 
 undivert () {
 	rm -f "/target$1"
-	chroot /target dpkg-divert --remove --rename "$1"
+	chroot /target dpkg-divert --quiet --remove --rename "$1"
 }
 
 chroot_setup () {
