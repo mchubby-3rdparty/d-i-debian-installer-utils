@@ -1,9 +1,9 @@
-debian-installer-utils (1.89) UNRELEASED; urgency=low
+debian-installer-utils (1.89) unstable; urgency=low
 
   [ Scott Moser ]
   * Add --quiet to dpkg-divert calls in chroot_setup (LP: #912431).
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 06 Jan 2012 12:17:39 +0000
+ -- Colin Watson <cjwatson@debian.org>  Fri, 06 Jan 2012 12:19:04 +0000
 
 debian-installer-utils (1.88) unstable; urgency=low
 
