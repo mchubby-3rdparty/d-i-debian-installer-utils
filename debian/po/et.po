@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
 "POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: 2012-01-25 02:09+0200\n"
+"PO-Revision-Date: 2012-02-17 22:38+0200\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -69,14 +69,14 @@ msgid ""
 msgstr ""
 "Juurfailisüsteem on RAM-kettal. Kõvaketta failisüsteemid on haagitud \"/"
 "target\" alla. Saadaval on väike ja lihtne tekstitoimeti nano. Mingi "
-"ülevaate saadaval olevatest Unixi utiliitidest annab käsk \"help\"."
+"ülevaate saadaolevatest Unixi tööriistadest annab käsk \"help\"."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "Paigaldaja menüüsse naasmiseks kasuta käsku \"exit\""
+msgstr "Paigaldaja menüüsse naasmiseks kasuta käsku \"exit\"."
 
 #. Type: text
 #. Description
