@@ -1,3 +1,10 @@
+debian-installer-utils (1.90) UNRELEASED; urgency=low
+
+  [ Samuel Thibault ]
+  * Install gnu-mach-color terminfo entry instead of mach-color.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 26 Mar 2012 18:26:45 +0200
+
 debian-installer-utils (1.89) unstable; urgency=low
 
   [ Scott Moser ]
