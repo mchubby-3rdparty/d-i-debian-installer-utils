@@ -1,3 +1,9 @@
+debian-installer-utils (1.93) UNRELEASED; urgency=low
+
+  * Remove unnecessary sourcing of preseed.sh from fetch-url.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 13 Sep 2012 10:40:56 +0100
+
 debian-installer-utils (1.92) unstable; urgency=low
 
   [ Samuel Thibault ]
