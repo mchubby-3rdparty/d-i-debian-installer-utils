@@ -14,7 +14,7 @@ endif
 
 export DEB_CFLAGS_MAINT_APPEND := -Wall -W -Os -fomit-frame-pointer
 
-CFLAGS := $(shell dpkg-buildflags --get CFLAGS)
+CFLAGS := $(shell dpkg-buildflags --get CPPFLAGS; dpkg-buildflags --get CFLAGS)
 LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
 
 TERMNAMES = a/ansi d/dumb v/vt102
