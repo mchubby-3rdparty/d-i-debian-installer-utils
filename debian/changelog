@@ -1,3 +1,9 @@
+debian-installer-utils (1.94) UNRELEASED; urgency=low
+
+  * Use dpkg-buildflags.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 20 Nov 2012 14:14:09 +0000
+
 debian-installer-utils (1.93) unstable; urgency=low
 
   [ Colin Watson ]
