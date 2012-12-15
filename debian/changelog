@@ -1,8 +1,12 @@
-debian-installer-utils (1.94) UNRELEASED; urgency=low
+debian-installer-utils (1.94) unstable; urgency=low
 
+  [ Colin Watson ]
   * Use dpkg-buildflags.
 
- -- Colin Watson <cjwatson@debian.org>  Tue, 20 Nov 2012 14:14:09 +0000
+  [ Updated translations ]
+  * Catalan (ca.po) by Jordi Mallach
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 10 Dec 2012 07:22:27 +0100
 
 debian-installer-utils (1.93) unstable; urgency=low
 
