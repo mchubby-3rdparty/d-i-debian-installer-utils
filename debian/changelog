@@ -1,3 +1,10 @@
+debian-installer-utils (1.92+deb7u1) UNRELEASED; urgency=low
+
+  * Fix procfs mounting on GNU/kFreeBSD: it's called linprocfs, rather
+    than procfs (Closes: #696901). Thanks, Steven Chamberlain!
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 02 Jan 2013 20:59:54 +0100
+
 debian-installer-utils (1.92) unstable; urgency=low
 
   [ Samuel Thibault ]
