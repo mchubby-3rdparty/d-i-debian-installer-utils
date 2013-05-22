@@ -1,3 +1,11 @@
+debian-installer-utils (1.97) UNRELEASED; urgency=low
+
+  * chroot_setup.sh: Make the fake initctl pass through "initctl version"
+    calls, used by such things as invoke-rc.d to figure out whether it's
+    running under Upstart (LP: #1182540).
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 22 May 2013 17:01:55 +0100
+
 debian-installer-utils (1.96) unstable; urgency=low
 
   [ Samuel Thibault ]
