@@ -1,7 +1,13 @@
 debian-installer-utils (1.98) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * fetch-url: Try to mountmedia when getting a file, to support preseed
     via USB from netboot.
+
+  [ Dmitrijs Ledkovs ]
+  * Set debian source format to '3.0 (native)'.
+  * Bump debhelper compat level to 9.
+  * Set Vcs-* to canonical format.
 
  -- Joey Hess <joeyh@debian.org>  Fri, 24 May 2013 10:53:04 -0400
 
