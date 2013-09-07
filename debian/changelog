@@ -1,3 +1,10 @@
+debian-installer-utils (1.99) unstable; urgency=low
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Sep 2013 22:37:43 +0200
+
 debian-installer-utils (1.98) unstable; urgency=low
 
   [ Joey Hess ]
