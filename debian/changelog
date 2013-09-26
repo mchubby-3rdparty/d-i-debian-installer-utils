@@ -1,3 +1,10 @@
+debian-installer-utils (1.100) UNRELEASED; urgency=low
+
+  * Use 'set -e' rather than '#! /bin/sh -e', to avoid accidents when
+    debugging with 'sh -x'.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 26 Sep 2013 13:48:21 +0100
+
 debian-installer-utils (1.99) unstable; urgency=low
 
   [ Updated translations ]
