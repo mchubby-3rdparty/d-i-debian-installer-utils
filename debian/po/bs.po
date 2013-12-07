@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
 "POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: 2013-11-29 19:21+0100\n"
+"PO-Revision-Date: 2013-12-01 21:06+0100\n"
 "Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -56,7 +56,6 @@ msgstr "Nakon ove poruke, radit ćete pod \"ash\", klonom Bourne-shella."
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
-#, fuzzy
 msgid ""
 "The root file system is a RAM disk. The hard disk file systems are mounted "
 "on \"/target\". The editor available to you is nano. It's very small and "
@@ -64,9 +63,9 @@ msgid ""
 "you, use the \"help\" command."
 msgstr ""
 "Root datotečni sistem je RAM disk. Datotečni sistemi hard diska su montirani "
-"na \"/target\". Editor koji Vam je dostupan je nano. On je veoma mali i "
-"lagan za upotrebu. Da biste stekli sliku o Unix korisnim programima koji su "
-"Vam dostupni, pokrenite naredbu \"help\"."
+"na \"/target\". Editor koji Vam je dostupan je nano. On je veoma mal i lagan "
+"za upotrebu. Da biste stekli sliku o Unix korisnim programima koji su Vam "
+"dostupni, koristite naredbu \"help\"."
 
 #. Type: note
 #. Description
@@ -107,12 +106,11 @@ msgstr "Da li sigurno želite sada izaći?"
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
-#, fuzzy
 msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
-"Ako niste završili instalaciju, Vaš sistem može biti u neupotrebljivom "
+"Ako niste završili instalaciju, Vaš sistem može ostati u neupotrebljivom "
 "stanju."
 
 #. Type: text
@@ -144,34 +142,31 @@ msgstr "Terminalni plugin nije dostupan"
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
-#, fuzzy
 msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"Ova verzija debian-instalera zahtijeva terminalni plugin da otvorite "
-"terminal. Nažalost, ovaj plugin trenutno nije dostupan."
+"Ova verzija debian-instalera zahtijeva terminalni plugin da otvorite shell. "
+"Nažalost, ovaj plugin trenutno nije dostupan."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
-#, fuzzy
 msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
 "Trebao bi biti dostupan nakon \"Učitavanje dodatnih komponenti\" "
-"instalacionog koraka."
+"instalacijskog koraka."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../di-utils.templates:7001
-#, fuzzy
 msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
 "Alternativno, možete otvoriti terminal kombinacijom tipki Ctrl+Alt+F2. "
-"Koristite Ctrl+Alt+F5 da se vratite u instalaciju."
+"Koristite Alt+F5 da se vratite u instalaciju."
