@@ -1,3 +1,10 @@
+debian-installer-utils (1.102) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by Amila Valjevčić
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 17 Dec 2013 08:08:43 +0100
+
 debian-installer-utils (1.101) unstable; urgency=low
 
   [ Updated translations ]
