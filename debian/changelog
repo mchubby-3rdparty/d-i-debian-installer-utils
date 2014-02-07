@@ -1,3 +1,11 @@
+debian-installer-utils (1.103) UNRELEASED; urgency=medium
+
+  * fetch-url-methods/http: Cope with the slightly different no-such-file
+    output produced by GNU wget, and with it needing to be invoked using
+    --no-verbose rather than -q (LP: #1172101).
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 07 Feb 2014 16:57:13 +0000
+
 debian-installer-utils (1.102) unstable; urgency=low
 
   [ Updated translations ]
