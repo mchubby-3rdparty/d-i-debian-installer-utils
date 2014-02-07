@@ -1,4 +1,4 @@
-debian-installer-utils (1.103) UNRELEASED; urgency=medium
+debian-installer-utils (1.103) unstable; urgency=medium
 
   * fetch-url-methods/http: Cope with the slightly different no-such-file
     output produced by GNU wget, and with it needing to be invoked using
@@ -9,7 +9,7 @@ debian-installer-utils (1.103) UNRELEASED; urgency=medium
       standard file descriptors (LP: #1021293).  See also the changelog for
       1.46.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 07 Feb 2014 16:57:13 +0000
+ -- Colin Watson <cjwatson@debian.org>  Fri, 07 Feb 2014 17:16:07 +0000
 
 debian-installer-utils (1.102) unstable; urgency=low
 
