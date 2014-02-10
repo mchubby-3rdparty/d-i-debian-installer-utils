@@ -1,7 +1,8 @@
 protocol_fetch() {
-	local url file RETVAL i j
+	local url file RETVAL i j options
 	url="$1"
 	file="$2"
+	options=
 
 	wget404() {
 	# see README.wget404 in the debian-installer-utils udeb source for more info about this
@@ -26,18 +27,26 @@ protocol_fetch() {
 	fi
 
 	if wget --version 2>/dev/null | grep -q 'GNU Wget'; then
-		quiet=--no-verbose
+		options=--no-verbose
+		if [ "https" = "$proto" ] && \
+		   db_get debian-installer/allow_unauthenticated && [ "$RET" = true ]; then
+			options="$options --no-check-certificate"
+		fi
 	else
-		quiet=-q
+		if [ "https" = "$proto" ]; then
+			echo "busybox wget does not support https" >&2
+			return 1
+		fi
+		options=-q
 	fi
 	RETVAL=0
 	for i in 1 2; do
-		wget404 $quiet -O "$file" "$url" || RETVAL=$?
+		wget404 $options -O "$file" "$url" || RETVAL=$?
 		[ $RETVAL = 1 ] || return $RETVAL
 
 		if [ "$TRY_CONTINUE" ] && [ -s "$file" ]; then
 			for j in 1 2 3; do
-				wget404 -c $quiet "$url" -O "$file" || RETVAL=$?
+				wget404 -c $options "$url" -O "$file" || RETVAL=$?
 				[ $RETVAL = 1 ] || return $RETVAL
 			done
 		fi

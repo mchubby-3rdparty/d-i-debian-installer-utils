@@ -1,3 +1,11 @@
+debian-installer-utils (1.104) UNRELEASED; urgency=medium
+
+  * Add HTTPS support to fetch-url, which will only work if d-i has been
+    built with GNU wget; debian-installer/allow_unauthenticated is
+    overloaded to imply the --no-check-certificate option (LP: #833994).
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 10 Feb 2014 18:21:25 +0000
+
 debian-installer-utils (1.103) unstable; urgency=medium
 
   * fetch-url-methods/http: Cope with the slightly different no-such-file
