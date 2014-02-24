@@ -1,3 +1,9 @@
+debian-installer-utils (1.106) UNRELEASED; urgency=medium
+
+  * resolv.c: move here from partman-nbd, and install into di-utils.
+
+ -- Wouter Verhelst <wouter@debian.org>  Mon, 24 Feb 2014 23:50:45 +0100
+
 debian-installer-utils (1.105) unstable; urgency=medium
 
   * Use debian-installer/allow_unauthenticated_ssl to imply wget
