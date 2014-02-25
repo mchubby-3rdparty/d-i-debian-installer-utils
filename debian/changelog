@@ -1,4 +1,4 @@
-debian-installer-utils (1.106) UNRELEASED; urgency=medium
+debian-installer-utils (1.106) unstable; urgency=high
 
   [ Wouter Verhelst ]
   * resolv.c: move here from partman-nbd, and install into di-utils.
@@ -9,7 +9,7 @@ debian-installer-utils (1.106) UNRELEASED; urgency=medium
     standard file descriptors and then tries to write to them it will
     receive SIGPIPE, and that breaks speech synthesis in d-i (see #739989).
 
- -- Wouter Verhelst <wouter@debian.org>  Mon, 24 Feb 2014 23:50:45 +0100
+ -- Colin Watson <cjwatson@debian.org>  Tue, 25 Feb 2014 00:12:49 +0000
 
 debian-installer-utils (1.105) unstable; urgency=medium
 
