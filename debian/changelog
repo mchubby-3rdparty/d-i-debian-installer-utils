@@ -1,6 +1,13 @@
 debian-installer-utils (1.106) UNRELEASED; urgency=medium
 
+  [ Wouter Verhelst ]
   * resolv.c: move here from partman-nbd, and install into di-utils.
+
+  [ Colin Watson ]
+  * Revert change in 1.103 to install no-op SIGCHLD handler even outside the
+    --pass-stdout case, since if a process daemonises without closing its
+    standard file descriptors and then tries to write to them it will
+    receive SIGPIPE, and that breaks speech synthesis in d-i (see #739989).
 
  -- Wouter Verhelst <wouter@debian.org>  Mon, 24 Feb 2014 23:50:45 +0100
 
