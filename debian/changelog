@@ -1,3 +1,10 @@
+debian-installer-utils (1.108) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 10 Sep 2014 13:58:20 +0200
+
 debian-installer-utils (1.107) unstable; urgency=medium
 
   [ Steven Chamberlain ]
