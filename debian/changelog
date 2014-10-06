@@ -1,3 +1,9 @@
+debian-installer-utils (1.117) UNRELEASED; urgency=medium
+
+  * add checksum verification to fetch-url
+
+ -- Philip Hands <phil@hands.com>  Tue, 01 Nov 2016 08:52:01 +0100
+
 debian-installer-utils (1.116) unstable; urgency=medium
 
   * Team upload.
