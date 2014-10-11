@@ -1,9 +1,9 @@
-debian-installer-utils (1.109) UNRELEASED; urgency=medium
+debian-installer-utils (1.109) unstable; urgency=medium
 
   [ Ian Campbell ]
   * Accept "---" as user-params separator in addition to "--" (Closes: #762007)
 
- -- Ian Campbell <ijc@debian.org>  Wed, 08 Oct 2014 19:47:50 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sat, 11 Oct 2014 07:41:14 +0200
 
 debian-installer-utils (1.108) unstable; urgency=low
 
