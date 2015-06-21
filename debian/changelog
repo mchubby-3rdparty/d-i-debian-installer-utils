@@ -1,3 +1,10 @@
+debian-installer-utils (1.111) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 20 Jun 2015 07:06:27 +0200
+
 debian-installer-utils (1.110) unstable; urgency=low
 
   [ Updated translations ]
