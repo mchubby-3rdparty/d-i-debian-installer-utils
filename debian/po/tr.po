@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
 "POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -45,9 +45,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
-#, fuzzy
 msgid "Interactive shell"
-msgstr "Bir kabuk çalıştır"
+msgstr "Etkileşimli kabuk"
 
 #. Type: note
 #. Description
@@ -55,6 +54,7 @@ msgstr "Bir kabuk çalıştır"
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
 msgstr ""
+"Bu iletiden sonra bir tür Bourne kabuğu olan \"ash\"i kullanıyor olacaksınız."
 
 #. Type: note
 #. Description
@@ -66,13 +66,17 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
+"Kök dosya sistemi bir RAM disk. Sabit disk dosya sistemleri \"/target\" "
+"altında bağlı. Kullanacağınız metin düzenleyici \"nano\". Bu, çok küçük ve "
+"kullanımı kolay bir metin düzenleyicisidir. Yararlanabileceğiniz Unix "
+"araçları hakkında bir fikir edinmek isterseniz \"help\" komutunu kullanın."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr ""
+msgstr "\"exit\" komutu ile kurulum menüsüne dönebilirsiniz."
 
 #. Type: text
 #. Description
@@ -92,14 +96,14 @@ msgstr "Bir kabuk çalıştır"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr ""
+msgstr "Kurulumdan çık"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr ""
+msgstr "Şimdi çıkmak istediğinize emin misiniz?"
 
 #. Type: boolean
 #. Description
@@ -109,6 +113,7 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
+"Eğer kurulumu bitirmediyseniz sisteminiz kullanılamaz bir durumda kalabilir."
 
 #. Type: text
 #. Description
@@ -133,7 +138,7 @@ msgstr "Modüller kaydediliyor..."
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr ""
+msgstr "Uçbirim eklentisi mevcut değil"
 
 #. Type: error
 #. Description
@@ -143,6 +148,8 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
+"Debian kurulum programının bu sürümü, bir kabuk görüntüleyebilmek için "
+"uçbirim eklentisine ihtiyaç duyar. Bu eklenti şu an ne yazık ki mevcut değil."
 
 #. Type: error
 #. Description
@@ -152,6 +159,7 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
+"Bu eklenti \"Ek bileşenler yükleniyor\" adımından sonra kullanılabilir."
 
 #. Type: text
 #. Description
@@ -161,3 +169,6 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
+"Bunun yerine, Ctrl+Alt+F2 tuşlarına basarak da bir uçbirim açabilirsiniz. "
+"Kurulum programına geri dönmek için Alt + F5 tuş bileşimini "
+"kullanabilirsiniz."
