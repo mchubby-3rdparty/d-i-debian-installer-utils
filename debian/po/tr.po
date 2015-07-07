@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
 "POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: 2015-06-30 01:49+0200\n"
+"PO-Revision-Date: 2015-07-07 21:57+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -123,7 +123,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "Kurulumdan çık"
+msgstr "Kurulumu iptal et"
 
 #. Type: text
 #. Description
