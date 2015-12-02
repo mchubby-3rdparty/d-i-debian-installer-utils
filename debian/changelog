@@ -1,3 +1,10 @@
+debian-installer-utils (1.113) UNRELEASED; urgency=medium
+
+  * Add support for NVMe devices (Closes: #799117). Thanks to Mario
+    Limonciello for the report and the patch.
+
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 03 Dec 2015 00:46:36 +0100
+
 debian-installer-utils (1.112) unstable; urgency=medium
 
   [ Updated translations ]
