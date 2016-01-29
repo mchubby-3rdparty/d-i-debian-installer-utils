@@ -1,3 +1,9 @@
+debian-installer-utils (1.114) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:16 +0000
+
 debian-installer-utils (1.113) unstable; urgency=high
 
   * Add support for NVMe devices (Closes: #799117). Thanks to Mario
