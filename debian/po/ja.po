@@ -3,38 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Japanese messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
-#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
-#   Kenshi Muto <kmuto@debian.org>, 2006-2007
-#   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
-#   Takuro Ashie <ashie@homa.ne.jp>, 2001.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from KDE: 
-#   - Taiki Komoda <kom@kde.gr.jp>
-#   Yasuaki Taniguchi <yasuakit@gmail.com>, 2010, 2011.
-#   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: 2011-08-09 19:55+0900\n"
-"Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
-"Language-Team: Debian L10n Japanese <debian-l10n-japanese@lists.debian.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -43,14 +11,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "インタラクティブシェル"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "このメッセージのあと、Bourne シェルクローンの \"ash\" が実行されます。"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -62,17 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"ルートファイルシステムは RAM ディスクです。ハードディスクファイルシステムは "
-"\"/target\" にマウントされています。利用できるエディタは nano です。これは非"
-"常に小さく理解するのが簡単なものです。利用可能な Unix ユーティリティが何か知"
-"りたいときは、\"help\" コマンドを使ってください。"
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "インストールメニューに戻るには \"exit\" コマンドを使います。"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -82,7 +46,7 @@ msgstr "インストールメニューに戻るには \"exit\" コマンドを�
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "シェルの実行"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -92,14 +56,14 @@ msgstr "シェルの実行"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "インストーラの終了"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "本当に今すぐ終了しますか?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -109,8 +73,6 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
-"インストールをまだ終えていないのであれば、あなたのシステムは不安定な状態に置"
-"かれている可能性があります。"
 
 #. Type: text
 #. Description
@@ -120,7 +82,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "インストールの中止"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -128,14 +90,14 @@ msgstr "インストールの中止"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "モジュールを登録しています..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "端末プラグインは利用できません"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -145,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"シェルを表示するためにこの debian-installer のビルドは端末プラグインを必要と"
-"します。しかし、このプラグインは現在利用できません。"
 
 #. Type: error
 #. Description
@@ -156,8 +116,6 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
-"\"追加コンポーネントをロードしています\" のインストール段階に到達してから利用"
-"できるはずです。"
 
 #. Type: text
 #. Description
@@ -167,5 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"別の方法として、Ctrl+Alt+F2 を押してシェルを開くことができます。インストーラ"
-"に戻るには、Alt+F5 を使います。"
