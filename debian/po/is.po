@@ -3,6 +3,37 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of debian-installer_packages_po_sublevel1_is.po to Icelandic
+# Icelandic messages for debian-installer.
+# This file is distributed under the same license as debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+#
+# Copyright (C) 2010 Free Software Foundation
+#
+# Translations from iso-codes:
+# Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Translations from KDE:
+# Þórarinn Rúnar Einarsson <thori@mindspring.com>
+# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
+# Sveinn í Felli <sveinki@nett.is>, 2010.
+# Alastair McKinstry, <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012, 2013.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
+"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
+"POT-Creation-Date: 2009-07-02 20:15+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+">\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+
 #. Type: note
 #. Description
 #. :sl2:
@@ -11,7 +42,7 @@
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr ""
+msgstr "Gagnvirk skel"
 
 #. Type: note
 #. Description
@@ -19,6 +50,8 @@ msgstr ""
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
 msgstr ""
+"Eftir þessi skilaboð munt þú vera keyrandi \"ash\", eftirhermu Bourne-"
+"skelarinnar."
 
 #. Type: note
 #. Description
@@ -30,6 +63,10 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
+"Rótarskráarkerfið er RAM-diskur. Skráarkerfin á harða disknum eru tengd inn "
+"á \"/target\". Ritillinn sem þér býðst er nano. Hann er mjög lítill og "
+"einfaldur. Til að skoða nokkur þeirra UNIX-tóla sem þér býðst getur þú notað "
+"\"help\"-skipunina."
 
 #. Type: note
 #. Description
@@ -37,6 +74,7 @@ msgstr ""
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
 msgstr ""
+"Notaðu \"exit\" skipunina til að komast aftur í uppsetningarvalmyndina."
 
 #. Type: text
 #. Description
@@ -46,7 +84,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr ""
+msgstr "Keyra skel"
 
 #. Type: text
 #. Description
@@ -56,14 +94,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr ""
+msgstr "Loka uppsetningarforritinu"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr ""
+msgstr "Ertu viss um að þú viljir hætta núna?"
 
 #. Type: boolean
 #. Description
@@ -73,6 +111,8 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
+"Ef þú hefur ekki klárað uppsetningarferlið gæti vélin þín verið í ónothæfu "
+"ástandi."
 
 #. Type: text
 #. Description
@@ -82,7 +122,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr ""
+msgstr "Hætta við uppsetninguna"
 
 #. Type: text
 #. Description
@@ -90,14 +130,14 @@ msgstr ""
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr ""
+msgstr "Skrái kjarnaeiningar..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr ""
+msgstr "Viðbót fyrir útstöðina ekki fáanleg"
 
 #. Type: error
 #. Description
@@ -107,6 +147,8 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
+"Þessi útgáfa af debian-installer þarfnast viðbótar fyrir útstöðina ef hún á "
+"að geta birt skelina. Því miður er viðbótin ekki fáanleg."
 
 #. Type: error
 #. Description
@@ -116,6 +158,8 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
+"Hún ætti að vera fáanleg þegar þú hefur náð \"Bæta við aukahlutum\" "
+"uppsetningarhlutanum."
 
 #. Type: text
 #. Description
@@ -125,3 +169,5 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
+"Einnig er hægt að opna skel með því að ýta á Ctrl+Alt+F2. Notaðu svo Alt+F5 "
+"til halda uppsetningu áfram."
