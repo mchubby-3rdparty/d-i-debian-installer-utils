@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of d-i.po to Gujarati
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2013
-#
-#
-# Translations from iso-codes:
-#   - translations from ICU-3.0
-#
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
-#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
-#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: d-i\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Gujarati <team@utkarsh.org>\n"
-"Language: gu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -41,14 +11,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "ઇન્ટરએક્ટિવ શૅલ"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "આ સંદેશા પછી, તમે બૉર્ન-શૅલનાં જેવું \"ash\" ચલાવશો."
+msgstr ""
 
 #. Type: note
 #. Description
@@ -60,16 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"રૂટ ફાઇલ સિસ્ટમ રેમ ડિસ્ક છે. હાર્ડડિસ્કની ફાઇલ સિસ્ટમ્સ  \"/target\" પર માઉન્ટ કરેલ છે. "
-"તમારી પાસે નેનો સંપાદક ઉપલબ્ધ છે. તે ઘણું નાનું છે અને વાપરવામાં સરળ છે. કઇ યુનિક્સ સવલતો "
-"તમને પ્રાપ્ત છે તે જાણવા માટે  તમે, \"help\" આદેશ વાપરી શકો છો."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "સ્થાપન મેનુમાં પાછા આવવા માટે \"બહાર નીકળો\" આદેશ વાપરો."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -79,7 +46,7 @@ msgstr "સ્થાપન મેનુમાં પાછા આવવા મ�
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "શૅલ ચાલુ કરો"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -89,14 +56,14 @@ msgstr "શૅલ ચાલુ કરો"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "સ્થાપનમાંથી બહાર નીકળો"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "તમે અત્યારે બહાર નીકળવા માટે ચોક્કસ છો?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -106,7 +73,6 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
-"જો તમે સ્થાપન પૂર્ણ નહી કર્યું હોય તો, તમારી સિસ્ટમ કદાચ બિનઉપયોગી સ્થિતિમાં રહી જશે."
 
 #. Type: text
 #. Description
@@ -116,7 +82,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "સ્થાપન અધુરૂ છોડી દો"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -124,14 +90,14 @@ msgstr "સ્થાપન અધુરૂ છોડી દો"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "મોડ્યુલોની નોંધણી કરે છે..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "ટર્મિનલ પ્લગઇન પ્રાપ્ત નથી"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -141,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"શૅલ દર્શાવવા માટે આ ડેબિયન-સ્થાપકનાં બિલ્ડને ટર્મિનલ પ્લગઇન જોઇએ છે. દુર્ભાગ્યે, આ પ્લગઇન "
-"હાલમાં અપ્રાપ્ત છે."
 
 #. Type: error
 #. Description
@@ -151,7 +115,7 @@ msgstr ""
 msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
-msgstr "તે \"વધારાનાં ભાગો લાવે છે\" સ્થાપન પગથિયાં પર પહોંચ્યા પછી પ્રાપ્ત થવી જોઇએ."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -161,5 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"બીજી રીતે, તમે Ctrl+Alt+F2 દબાવીને શૅલ ખોલી શકો છો. સ્થાપકમાં પાછા જવા માટે Alt+F5 "
-"નો ઉપયોગ કરો."

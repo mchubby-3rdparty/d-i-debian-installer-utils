@@ -3,34 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Kazakh messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
-# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Sairan Kikkarin <sairan@sci.kz>, 2006
-#   KDE Kazakh l10n team, 2006
-#   Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009, 2010
-#   Dauren Sarsenov <daur88@inbox.ru>, 2009
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Kazakh\n"
-"Language: kk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -39,7 +11,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "Интерактивті қоршам"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -47,7 +19,6 @@ msgstr "Интерактивті қоршам"
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
 msgstr ""
-"Осы хабардан соң Bourne-shell клоны болып табылатын \"ash\" іске қосылады."
 
 #. Type: note
 #. Description
@@ -59,17 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"Түбірлік файлдық жүйе жадыда орналасқан. Қатты дисктердің файлдық жүйесі \"/"
-"target\" құрылғысына тіркелген. Сіздің қолыңызда өте кіші әрі оңай редактор "
-"– nano бар. \"help\" командасы мүмкін командалар мен Unix утилиттері туралы "
-"айтып береді."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "Орнату мәзіріне оралу үшін \"exit\" командасын қолданыңыз."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -79,7 +46,7 @@ msgstr "Орнату мәзіріне оралу үшін \"exit\" команд�
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "Қоршамды іске қосу"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -89,14 +56,14 @@ msgstr "Қоршамды іске қосу"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "Орнатқыштан шығу"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "Жүйеден шығуды шынымен қалайсыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -105,7 +72,7 @@ msgstr "Жүйеден шығуды шынымен қалайсыз ба?"
 msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
-msgstr "Орнатуды аяқтамасаңыз, жүйе қолдануға жарамсыз түрінде қалуы мүмкін."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -115,7 +82,7 @@ msgstr "Орнатуды аяқтамасаңыз, жүйе қолдануға �
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "Орнатуды тоқтату"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -123,14 +90,14 @@ msgstr "Орнатуды тоқтату"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "Модульдерді тіркеу..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "Терминал плагині жоқ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -140,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"Debian орнату бағдарламасы қоршамды бастау үшін терминал плагинін талап "
-"етеді. Өкінішке орай, мұндай плагин табылмады."
 
 #. Type: error
 #. Description
@@ -150,7 +115,7 @@ msgstr ""
 msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
-msgstr "Ол \"Қосымша құрама жүктеу\" қадамы кезінде табылуы тиіс."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -160,5 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"Қоршамды қолдан ашу үшін Ctrl+Alt+F2 басуға болады. Орнату бағдарламасына "
-"оралу үшін Alt+F5 басыңыз."

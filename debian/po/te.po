@@ -3,32 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of te.po to Telugu
-# Telugu translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-#
-# Translations from iso-codes:
-# వీవెన్ (Veeven) <launchpad.net>, 2007.
-# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010.
-# Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
-# Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: d-i <kde-i18n-doc@kde.org>\n"
-"Language: te\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -37,14 +11,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "సంవాద(interactive) షెల్"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "ఈ సందేశం తరవాత మీరు \"ash\" అనే ఓ బౌర్న్ షెల్ క్లోన్ ని వాడుతుంటారు"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -56,16 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"రూట్  ఫైల్ సిస్టమ్ ఒక RAM డిస్క్. హార్డ్ డిస్క్  ఫైల్ సిస్టములు  \"/target\" పై అనుసంధానంచేయబడ్డాయి. "
-"nano ఎడిటర్  మీకు అందుబాటులో వుంది. అది చాలా చిన్నది, వాడటం మీరు సులభంగా తెలుసుకోగలరు. \"help"
-"\" కమాండ్ వాడితే, మీకు ఏ యునిక్స్  పరికరాలు అందుబాటులో వున్నాయో తెలుస్తుంది."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "స్థాపనమెనూ కి తిరిగి వెళ్ళడానికి \"exit\" కమాండుని ఉపయోగించండి."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -75,7 +46,7 @@ msgstr "స్థాపనమెనూ కి తిరిగి వెళ్ళ
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "షెల్ ని నడుపుము"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -85,14 +56,14 @@ msgstr "షెల్ ని నడుపుము"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "స్థాపన వ్యవస్థని నిష్క్రమించు"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "నిజంగా నిష్క్రమించాలి అనుకుంటున్నారా?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -101,7 +72,7 @@ msgstr "నిజంగా నిష్క్రమించాలి అను�
 msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
-msgstr "ప్రతిష్టాపనను పూర్తి చేయకుంటే మీ కంప్యూటరు అస్థిరమైన స్థితిలో ఉండవచ్చు."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -111,7 +82,7 @@ msgstr "ప్రతిష్టాపనను పూర్తి చేయక�
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "స్థాపక ప్రక్రియ విరమించు"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -119,14 +90,14 @@ msgstr "స్థాపక ప్రక్రియ విరమించు"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "మాధ్యమాలు (modules) నమోదు చేయబడుతున్నాయి..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "టర్మినల్ ప్లగ్ ఇన్  అందుబాటులో లేదు."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -136,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"షెల్  చూపించడానికి  ఈ డెబియన్ స్థాపన వ్యవస్థ  నిర్మితి (build) కి  టర్మినల్ ప్లగ్ ఇన్  కావాలి. "
-"దురదృష్టవశాత్తు, ఆ ప్లగ్ ఇన్ అందుబాటులో లేదు."
 
 #. Type: error
 #. Description
@@ -146,7 +115,7 @@ msgstr ""
 msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
-msgstr "\"అదనపు అంశాలు ఎక్కించు\" అన్న స్థాపనా అంకం తరువాత, అది అందుబాటులో వుండాలి."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -156,4 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"వేరేవిధంగా, షెల్  తెరవడానికి  Ctrl+Alt+F2 నొక్కండి. Alt+F5 వాడి, స్థాపన వ్యవస్థ కి వెళ్లవచ్చు."

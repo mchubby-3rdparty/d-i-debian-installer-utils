@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde-i18n/desktop.po:
-#
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
-#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Free Software Foundation, Inc., 2002, 2004.
-#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
-# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012, 2013.
-msgid ""
-msgstr ""
-"Project-Id-Version: ar\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: American English <okhayat@gmail.com>\n"
-"Language: ar\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -41,14 +11,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "سطر أوامر تفاعلي"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "بعد هذه الرسالة، ستكون تعمل على \"ash\"، وهو شبيه Bourne-shell."
+msgstr ""
 
 #. Type: note
 #. Description
@@ -60,16 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"نظام الملفات الجذري هو قرص ذاكرة مؤقتة. أنظمة ملفات القرص الصلب مركّبة على "
-"\"target\". المحرّر المتوفّر لك هو نانو. إنه صغير جداً وسهل الاستخدام. لتحصل "
-"على فكرة عن أدوات يونكس المتوفرة لك استخدم الأمر \"help\"."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "استخدم أمر \"خروج\" للرجوع لقائمة التثبيت."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -79,7 +46,7 @@ msgstr "استخدم أمر \"خروج\" للرجوع لقائمة التثبي�
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "فتح سطر الأوامر"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -89,14 +56,14 @@ msgstr "فتح سطر الأوامر"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "الخروج من المُثبّت"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "هل أنت متأكّد أنّك تريد الخروج الآن؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -105,7 +72,7 @@ msgstr "هل أنت متأكّد أنّك تريد الخروج الآن؟"
 msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
-msgstr "إن لم تنته من التثبيت، قد يترك نظامك بوضع لا يسمح باستخدامه."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -115,7 +82,7 @@ msgstr "إن لم تنته من التثبيت، قد يترك نظامك بوض
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "أوقف التثبيت"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -123,14 +90,14 @@ msgstr "أوقف التثبيت"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "تسجيل الوحدات..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "إضافة الطرفية غير متوفّرة"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -140,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"تتطلب هذه البنية من برنامج تثبيت دبيان إلى إضافةٍ للطرفية كي تتمكن من فتح سطر "
-"الأوامر. للأسف، هذه الإضافة غير متوفّرة حالياً."
 
 #. Type: error
 #. Description
@@ -151,8 +116,6 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
-"يجب أن تتوفر هذه الإضافة بعد أن تصل إلى خطوة التثبيت \"تحميل المكوّنات "
-"الإضافية\"."
 
 #. Type: text
 #. Description
@@ -162,5 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"بدلاً من ذلك، يمكنك الوصول إلى سطر الأوامر بضغط CTRL+ALT+F2. استخدم ALT+F5 "
-"للعودة إلى برنامج التثبيت."

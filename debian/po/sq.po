@@ -3,29 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Albanian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004
-#   Elian Myftiu <elian.myftiu@gmail.com>, 2004,2006.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
-"POT-Creation-Date: 2009-07-02 20:15+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Albanian \n"
-"Language: sq\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
-
 #. Type: note
 #. Description
 #. :sl2:
@@ -34,7 +11,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "Shell ndërveprues"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -42,7 +19,6 @@ msgstr "Shell ndërveprues"
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
 msgstr ""
-"Pas këtij mesazhi, do jesh duke përdorur \"ash\", një shell klon i Bourne."
 
 #. Type: note
 #. Description
@@ -54,17 +30,13 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"Filesistemi i root është disku RAM. Filesistemet e hard-diskut janë montuar "
-"mbi \"/target\". Editori në dispozicion është nano. Është shumë i vogël dhe "
-"i thjeshtë për ta kuptuar. Për të patur një ide çfarë veglash të Unix ke në "
-"dispozicion, përdor komandën \"ls /bin /sbin /usr/bin /usr/sbin\"."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "Përdor komandën \"exit\" për tu kthyer tek menuja e intalimit."
+msgstr ""
 
 #. Type: text
 #. Description
@@ -74,7 +46,7 @@ msgstr "Përdor komandën \"exit\" për tu kthyer tek menuja e intalimit."
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr "Ekzekuto një shell"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -84,14 +56,14 @@ msgstr "Ekzekuto një shell"
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "Dil nga instaluesi"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "Je i sigurtë që do të dalësh tani?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -101,8 +73,6 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
-"Nëse nuk ke mbaruar instalimin, sistemi mund të ketë mbetur në një gjendje "
-"të papërdorshme."
 
 #. Type: text
 #. Description
@@ -112,7 +82,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "Ndalo instalimin"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -120,14 +90,14 @@ msgstr "Ndalo instalimin"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "Duke regjistruar modulet ..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "Shtesa e terminalit nuk gjendet"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -137,8 +107,6 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"Ky debian-instalues ka nevojë për shtesën terminal në mënyrë që të shfaqë "
-"një shell. Fatkeqsisht, kjo shtesë nuk gjendet."
 
 #. Type: error
 #. Description
@@ -148,8 +116,6 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
-"Shtesën do ta gjeni pasi të arrini hapin e instalimit \"Duke ngarkuar "
-"përbërësit shtesë\"."
 
 #. Type: text
 #. Description
@@ -159,5 +125,3 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"Ju mund të hapni një shell duke shtypur Ctrl+Alt+F2. Përdorni Alt+F5 për t'u "
-"kthyer tek instaluesi."
