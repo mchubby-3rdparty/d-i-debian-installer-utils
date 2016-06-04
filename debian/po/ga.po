@@ -3,6 +3,22 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Irish messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-installer-utils@packages.debian.org\n"
+"POT-Creation-Date: 2009-07-02 20:15+0000\n"
+"PO-Revision-Date: 2006-03-21 14:42-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: note
 #. Description
 #. :sl2:
@@ -11,7 +27,7 @@
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr ""
+msgstr "Blaosc idirghníomhach"
 
 #. Type: note
 #. Description
@@ -19,6 +35,8 @@ msgstr ""
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
 msgstr ""
+"Tar éis na teachtaireachta seo, beidh \"ash\" á rith agat, clón den bhlaosc "
+"Bourne."
 
 #. Type: note
 #. Description
@@ -30,13 +48,17 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
+"Is diosca RAM é an fréamhchóras comhad. Tá na córais chomhad ar an diosca "
+"crua feistithe ag \"/target\". Is féidir leat an t-eagarthóir \"nano\" a "
+"úsáid. Tá sé an-bheag agus ní deacair é a úsáid. Chun na hacmhainní Unix atá "
+"ar fáil a fheiceáil, úsáid an t-ordú \"help\"."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr ""
+msgstr "Úsáid \"scoir\" chun filleadh ar an roghchlár suiteála."
 
 #. Type: text
 #. Description
@@ -46,7 +68,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-shell.templates:2001
 msgid "Execute a shell"
-msgstr ""
+msgstr "Rith blaosc"
 
 #. Type: text
 #. Description
@@ -56,14 +78,14 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr ""
+msgstr "Scoir an suiteálaí"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr ""
+msgstr "An bhfuil tú cinnte gur mian leat scor anois?"
 
 #. Type: boolean
 #. Description
@@ -73,6 +95,7 @@ msgid ""
 "If you have not finished the install, your system may be left in an unusable "
 "state."
 msgstr ""
+"Mura bhfuil an tsuiteáil críochnaithe, seans nach mbeidh do chóras inúsáidte."
 
 #. Type: text
 #. Description
@@ -82,7 +105,7 @@ msgstr ""
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr ""
+msgstr "Tobscoir an tsuiteáil"
 
 #. Type: text
 #. Description
@@ -90,14 +113,14 @@ msgstr ""
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr ""
+msgstr "Modúil á gclárú..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr ""
+msgstr "Níl an breiseán teirminéil le fáil"
 
 #. Type: error
 #. Description
@@ -107,6 +130,8 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
+"Tá an breiseán teirminéil de dhíth ar an leagan seo den suiteálaí Debian "
+"chun blaosc a thaispeáint.  Faraor, níl an breiseán seo le fáil faoi láthair."
 
 #. Type: error
 #. Description
@@ -116,6 +141,8 @@ msgid ""
 "It should be available after reaching the \"Loading additional components\" "
 "installation step."
 msgstr ""
+"Beidh sé le fáil tar éis duit an chéim \"Comhpháirteanna eile á luchtú\" a "
+"shroicheadh."
 
 #. Type: text
 #. Description
@@ -125,3 +152,5 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
+"Mar mhalairt air sin, is féidir leat blaosc a oscailt trí Ctrl+Alt+F2 a "
+"bhrú.  Bain úsáid as Alt+F5 chun filleadh ar an suiteálaí."
