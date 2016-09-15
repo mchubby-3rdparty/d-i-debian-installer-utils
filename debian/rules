@@ -17,7 +17,7 @@ export DEB_CFLAGS_MAINT_APPEND := -Wall -W -Os -fomit-frame-pointer
 CFLAGS := $(shell dpkg-buildflags --get CPPFLAGS; dpkg-buildflags --get CFLAGS)
 LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
 
-TERMNAMES = a/ansi d/dumb v/vt102
+TERMNAMES = a/ansi d/dumb v/vt102 s/screen
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
 TERMNAMES += l/linux
