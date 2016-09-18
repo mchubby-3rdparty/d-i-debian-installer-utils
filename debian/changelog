@@ -1,5 +1,6 @@
 debian-installer-utils (1.116) unstable; urgency=medium
 
+  * Team upload.
   * control: Build-depend on ncurses-bin.
   * vt102-di: Tinker vt102 entry, to avoid using ^J, since various levels of
     tty may be adding a ^M and thus scrambling the output, use generic escape
