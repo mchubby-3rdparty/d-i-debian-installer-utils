@@ -1,3 +1,11 @@
+debian-installer-utils (1.118) UNRELEASED; urgency=medium
+
+  [ Josh Triplett ]
+  * fetch-url-methods/http: Set User-Agent to "debian-installer" when calling
+    wget. (Closes: #850800)
+
+ -- Philipp Kern <pkern@debian.org>  Sun, 29 Jan 2017 23:17:53 +0100
+
 debian-installer-utils (1.117) unstable; urgency=medium
 
   * add checksum verification to fetch-url
