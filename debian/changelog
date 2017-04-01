@@ -1,9 +1,9 @@
-debian-installer-utils (1.119) UNRELEASED; urgency=medium
+debian-installer-utils (1.119) unstable; urgency=medium
 
   * fix: propagate dot-containing options to target kernel cmdline
     (Closes: #853855)
 
- -- Philip Hands <phil@hands.com>  Tue, 28 Feb 2017 21:48:58 +0100
+ -- Philip Hands <phil@hands.com>  Sat, 01 Apr 2017 11:56:13 +0200
 
 debian-installer-utils (1.118) unstable; urgency=medium
 
